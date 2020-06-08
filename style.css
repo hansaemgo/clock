@@ -1,8 +1,9 @@
 body {
 	background-color: #556677;
+	color: white;
 }
 h1 {
-	color: white;
+	color: #ffffff;
 	text-align: center;
 	font-size: 150px;
 }
@@ -11,6 +12,7 @@ h1 {
 .greetings {
 	display: none;
 	text-align: center;
+	color: white;
 }
 .js-toDoForm {
 	text-align: center;
@@ -35,4 +37,8 @@ h1 {
 	left: 0;
 	z-index: -10;
 	animation: fadeIn 0.5s linear;
+}
+
+.weatherTitle {
+	text-align: center;
 }
